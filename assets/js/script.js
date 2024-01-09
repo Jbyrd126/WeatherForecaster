@@ -32,7 +32,9 @@ const getForecast = async (lat, lon) => {
     const forecast = await response.json();
     console.log(forecast)
 
-    $(".forecast").append($(`<div>${forecast.list[0].dt_txt}</div> `));
+    $(".day").append($(`<div class="col col-md-7">${forecast.list[0].dt_txt}</div> `));
+    $(".day").append($(`<div class="col col-md-7">${forecast.list[14].dt_txt}</div> `));
+
 };
 
 
