@@ -25,11 +25,12 @@ const getCurrent = async (lat, lon) => {
     console.log(weather.main.temp);
     console.log(weather.wind.speed);
 };
+
 const getForecast = async (lat, lon) => {
     $(".forecast").empty();
     console.log(`In forecast ${(lat, lon)}`);
     const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=f6406638f7d67d23a5c2c55298a961a1`
+        `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=f6406638f7d67d23a5c2c55298a961a1`
     );
     // get the body out of the response
     const forecast = await response.json();
@@ -42,15 +43,15 @@ const getForecast = async (lat, lon) => {
         $(".forecast").append(
             $(`
         <div class="col bg-dark border border-3 border-gradient rounded m-3 text-center text-white">
-        <p><img src="https://openweathermap.org/img/w/${index.weather[0].icon}.png"/></p>
-          <p>${index.dt_txt}</p> <p>${index.main.temp}</p>
-          <p>${index.wind.speed}</p> <p>${index.main.humidity}</p>
+          <p><img src="https://openweathermap.org/img/w/${index.weather[0].icon}.png"/></p>
+          <p><br>${index.dt_txt}</br></p>
+          <p>Temp: <br>${index.main.temp} &#8457;</br></p>
+          <p>Wind Speed:<br> ${index.wind.speed}</br></p>
+          <p>Humidity: <br> ${index.main.humidity} </br></p>
         </div>`
             )
         );
     });
-
-
 };
 
 const getCoords = async (city) => {
