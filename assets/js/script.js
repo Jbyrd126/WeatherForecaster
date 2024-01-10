@@ -26,7 +26,7 @@ const getCurrent = async (lat, lon) => {
     console.log(weather.wind.speed);
 };
 const getForecast = async (lat, lon) => {
-    $(".forecast");
+    $(".forecast").empty();
     console.log(`In forecast ${(lat, lon)}`);
     const response = await fetch(
         `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=f6406638f7d67d23a5c2c55298a961a1`
@@ -42,6 +42,7 @@ const getForecast = async (lat, lon) => {
         $(".forecast").append(
             $(`
         <div class="col bg-danger m-3 text-center">
+        <p><img src="https://openweathermap.org/img/w/${index.weather[0].icon}.png"/></p>
           <p>${index.dt_txt}</p> <p>${index.main.temp}</p>
           <p>${index.wind.speed}</p> <p>${index.main.humidity}</p>
         </div>`
@@ -65,7 +66,40 @@ const getCoords = async (city) => {
 
     getCurrent(lat, lon);
     getForecast(lat, lon);
+
+
+    searched();
+    displayLocal();
+    console.log(1);
+
+
+
+
 };
+
+function searched() {
+    let addCity = JSON.parse(localStorage.getItem("newCity"));
+    if (!Array.isArray(addCity)) {
+        addCity = [];
+
+    }
+    addCity.unshift($(".city").val());
+    localStorage.setItem("newCity", JSON.stringify(addCity))
+
+};
+
+function displayLocal() {
+    let localCity = JSON.parse(localStorage.getItem("newCity"));
+    console.log(localCity);
+    if (localCity) {
+        localCity.forEach((city) => {
+            const listCity = $(`<button type="button" class="btn btn-dark mb-1">${city}</button>`)
+            $(".history").append(listCity);
+
+
+        })
+    }
+}
 
 //listen for a click
 $(".weather_btn").on("click", () => {
@@ -75,4 +109,9 @@ $(".weather_btn").on("click", () => {
     getCoords($(".city").val());
     //pass the coords to the current weather
     // get the weather on th epage
+});
+
+window.addEventListener('beforeunload', function () {
+    // Clear the local storage
+    localStorage.clear();
 });
