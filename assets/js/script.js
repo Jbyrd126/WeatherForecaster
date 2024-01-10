@@ -41,7 +41,7 @@ const getForecast = async (lat, lon) => {
     hourly.forEach((index) => {
         $(".forecast").append(
             $(`
-        <div class="col bg-danger m-3 text-center">
+        <div class="col bg-dark border border-3 border-gradient rounded m-3 text-center text-white">
         <p><img src="https://openweathermap.org/img/w/${index.weather[0].icon}.png"/></p>
           <p>${index.dt_txt}</p> <p>${index.main.temp}</p>
           <p>${index.wind.speed}</p> <p>${index.main.humidity}</p>
@@ -76,7 +76,7 @@ const getCoords = async (city) => {
 
 
 };
-
+//make an array in local storage to pull recently searched locations from
 function searched() {
     let addCity = JSON.parse(localStorage.getItem("newCity"));
     if (!Array.isArray(addCity)) {
@@ -88,18 +88,18 @@ function searched() {
 
 };
 
+
+// function to grab last city added to the array and display it as a button in the recently searched container
 function displayLocal() {
     let localCity = JSON.parse(localStorage.getItem("newCity"));
     console.log(localCity);
+
     if (localCity) {
-        localCity.forEach((city) => {
-            const listCity = $(`<button type="button" class="btn btn-dark mb-1">${city}</button>`)
-            $(".history").append(listCity);
-
-
-        })
+        const lastCity = localCity[localCity = [0]];
+        const listCity = $(`<button type="button" class="btn btn-dark mb-1">${lastCity}</button>`);
+        $(".history").append(listCity);
     }
-}
+};
 
 //listen for a click
 $(".weather_btn").on("click", () => {
@@ -115,3 +115,4 @@ window.addEventListener('beforeunload', function () {
     // Clear the local storage
     localStorage.clear();
 });
+
