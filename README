@@ -1,26 +1,14 @@
-<div align="center">
-
-  <!-- Add badges using the following format: -->
-  <!-- ![Name](urlToShieldHere)(urlToGithubHere) -->
-
-</div>
-
-<!-- PROJECT LOGO -->
-
-<div align="center">
-
-  <h3 align="center">Weather Dashboard</h3>
+ <h3 align="center">Weather Dashboard</h3>
 
   <br />
    <p> Brought to you by a bunch of stuff I don't fully understand yet!<br /></p>
-</div>
 
-<!-- ABOUT THE PROJECT -->
+
+
 
 ## About The Project
 
-<!-- Add screenshots using the following format: -->
-<!-- ![Screenshot alt description](directPathOfScreenshots) -->
+
 
 This project was built using HTML, Javascript and Bootstrap framework.
 
@@ -34,7 +22,7 @@ This project was built using HTML, Javascript and Bootstrap framework.
 
 </div>
 
-<!-- GETTING STARTED -->
+
 
 ## Getting Started
 
@@ -42,7 +30,7 @@ Once completely built, this application will function as a deployed app on Githu
 
 ### Local Installation / Testing
 
-<!-- USAGE EXAMPLES -->
+
 
 ## Usage
 
@@ -50,13 +38,11 @@ Once completely built, this application will function as a deployed app on Githu
 
 ![Screeny](![Alt text](assets/images/WeatherDashboard.png))
 
-<!-- ROADMAP -->
+
 
 ## Roadmap
 
-<!-- LICENSE -->
 
-<!-- CONTACT -->
 
 ## Contact
 
@@ -74,7 +60,7 @@ Project Links:
 
 [Deployment- link later]()
 
-<!-- ACKNOWLEDGMENTS -->
+
 
 ## Acknowledgments
 
