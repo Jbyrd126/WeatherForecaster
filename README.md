@@ -5,6 +5,8 @@
 
 </div>
 
+<!-- PROJECT LOGO -->
+
 <div align="center">
 
   <h3 align="center">Weather Dashboard</h3>
@@ -13,7 +15,12 @@
    <p> Brought to you by a bunch of stuff I don't fully understand yet!<br /></p>
 </div>
 
+<!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
+<!-- Add screenshots using the following format: -->
+<!-- ![Screenshot alt description](directPathOfScreenshots) -->
 
 This project was built using HTML, Javascript and Bootstrap framework.
 
