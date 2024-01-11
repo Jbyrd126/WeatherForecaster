@@ -8,37 +8,12 @@
 <!-- PROJECT LOGO -->
 
 <div align="center">
-  <a href="https://github.com/404pandas/PARSR">
-    <img src="./client/src/assets/images/parsr-logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">PARSR</h3>
+  <h3 align="center">Weather Dashboard</h3>
 
-  <p align="center">
-    Project Animal Reunification Search & Rescue    <br />
-    <a href="https://www.allanimalrr.org/">
-      <img src="./client/src/assets/images/aarr.png" alt="Logo" width="80" height="80">
-    </a><br />
-    Brought to you by All Animal Rehabilitation & Release<br />
-    <a href="https://github.com/404pandas/PARSR"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/404pandas/PARSR">View Demo(Broken)</a>
-    ·
-    <a href="https://github.com/404pandas/PARSR/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/404pandas/PARSR/issues">Request Feature</a>
-
-  </p>
+  <br />
+   <p> Brought to you by a bunch of stuff I don't fully understand yet!<br /></p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-  
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -47,22 +22,15 @@
 <!-- Add screenshots using the following format: -->
 <!-- ![Screenshot alt description](directPathOfScreenshots) -->
 
-This project was built with the MERN stack and Apollo + GraphQL.
-It's currently not deployed until the prototype MVP is completed.
+This project was built using HTML, Javascript and Bootstrap framework.
 
 ### Built With
 
 <div align="center">
 
 [![Javascript](https://img.shields.io/badge/Language-JavaScript-ff0000?style=plastic&logo=JavaScript&logoWidth=10)](https://javascript.info/)
-[![MongoDB](https://img.shields.io/badge/Database-MongoDB-80ff00?style=plastic&logo=MongoDB&logoWidth=10)](https://www.mongodb.com/home)
-[![Heroku](https://img.shields.io/badge/Cloud-Heroku-00ff00?style=plastic&logo=Heroku&logoWidth=10)](https://devcenter.heroku.com/categories/reference)
-[![Node.js](https://img.shields.io/badge/Framework-Node.js-ff0000?style=plastic&logo=Node.js&logoWidth=10)](https://nodejs.org/en/)
-[![React](https://img.shields.io/badge/Framework-React.js-ff8000?style=plastic&logo=React&logoWidth=10)](https://reactjs.org/docs/getting-started.html)
-[![Express](https://img.shields.io/badge/Framework-Express-80ff00?style=plastic&logo=Express&logoWidth=10)](https://expressjs.com/)
-[![npm](https://img.shields.io/badge/Tools-npm-ff0000?style=plastic&logo=npm&logoWidth=10)](https://www.npmjs.com/)
+[![Framework - Bootstrap](https://img.shields.io/badge/Framework-Bootstrap-2ea44f?logo=Bootstrap)](https://getbootstrap.com/)
 [![VS Code](https://img.shields.io/badge/IDE-VSCode-ff0000?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
-[![MUI](https://img.shields.io/badge/Package-MUI-ff0000?style=plastic&logo=MUI&logoWidth=10)](https://mui.com/)
 
 </div>
 
@@ -70,7 +38,7 @@ It's currently not deployed until the prototype MVP is completed.
 
 ## Getting Started
 
-Once completely built, this application will function as a deployed app on Heroku
+Once completely built, this application will function as a deployed app on Github Pages.
 
 ### Local Installation / Testing
 
@@ -173,27 +141,21 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 
-## License
-
-This project is licensed under the MIT license.
-
-See LICENSE.txt for more information.
-
 <!-- CONTACT -->
 
 ## Contact
 
-[Mary Elenius](https://maryelenius.com/d20) - mary.panda.jackson@gmail.com
+[Robert Byrd](https://github.com/Jbyrd126/WeatherForecaster) - Glurk33@gmail.com
 
 in association with:
 
-[All Animal Rehabilitation and Release](https://www.allanimalrr.org)
+[John Dinsmore](https://twitter.com/JohnWDinsmore)
+
+[Mary Elenius](https://maryelenius.com/)
 
 Project Links:
 
-[Figma Board- link later]()
-
-[Github Repository](https://github.com/404pandas/PARSR)
+[Github Repository](https://github.com/Jbyrd126/WeatherForecaster)
 
 [Deployment- link later]()
 
@@ -201,4 +163,4 @@ Project Links:
 
 ## Acknowledgments
 
-I would like to give a big shoutout to my partner in crime and daughter, Yennefer! Every day she proves she is small yet mighty!
+I still don't feel I have a great grasp on all this, but I'd like to give big 'ups' to John and Mary for all the instruction, insight, and just general badassery in trying to get me there!"trying to get me there!
