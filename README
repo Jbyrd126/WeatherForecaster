@@ -42,102 +42,17 @@ Once completely built, this application will function as a deployed app on Githu
 
 ### Local Installation / Testing
 
-1. Clone the rep
-
-```
-git clone https://github.com/404pandas/PARSR.git
-```
-
-2. Install dependencies
-
-```
-npm run install
-```
-
-3. Seed the database
-
-```
-npm run seed
-```
-
-4. Launch the app in development environments
-
-```
-npm run develop
-```
-
-5. Visit:
-
-[localhost]()
-
-```
-
-```
-
-[graphQL]()
-
-```
-
-```
-
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Once the app is functional, screenshots will be added in this section.
+![Screeny](assets/images/wetaher1.png)
+
+![Screeny](![Alt text](assets/images/WeatherDashboard.png))
 
 <!-- ROADMAP -->
 
 ## Roadmap
-
-#### MVP
-
-- [ ] Front End
-
-  - [x] Routing
-  - [ ] Map (Markers, Search area)
-  - [x] User Auth
-  - [ ] User Profile Page
-  - [x] Landing Page
-  - [ ] Pet Page
-  - [ ] Owner Page
-  - [ ] Map Page
-  - [ ] Error Page
-  - [ ] 404 Page
-  - [ ] Login Form
-  - [ ] Sign Up Form
-  - [ ] Test react-ol-wrapper library
-  - [ ] ? Migrate from ol to react-ol-wrapper ?
-
-- [ ] Back End
-  - [x] Typedefs
-  - [x] Resolvers
-  - [x] Seeds
-  - [x] User Auth
-  - [ ] Migrate from MongoDB to Postgres (benefit more from a relational database)
-
-#### Future Development
-
-- [ ] Stripe (Donate Page)
-- [ ] Chat
-- [ ] Search
-
-See the [open issues](https://github.com/404pandas/PARSR/issues) for a full list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
 
 <!-- LICENSE -->
 
