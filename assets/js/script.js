@@ -63,7 +63,7 @@ const getForecast = async (lat, lon) => {
 const getCoords = async (city) => {
     console.log(city);
     const response = await fetch(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=10&appid=3be2b2b6acc21e3760901d15acf91f72`
+        `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=10&appid=3be2b2b6acc21e3760901d15acf91f72`
     );
     // get the body out of the response
     const data = await response.json();
